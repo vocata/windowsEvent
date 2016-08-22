@@ -1,2 +1,2 @@
-#  当前工程是一个无边框的例子
-#  捎昧酥匦磜indows事件来实现
+# reimplemented the nativeEvent 
+# use windows API so it can't cross platform
