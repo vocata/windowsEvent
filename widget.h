@@ -1,10 +1,9 @@
 #ifndef WIDGET_H
 #define WIDGET_H
 
-#include <QMainWindow>
 #include <QWidget>
 
-class Widget : public QMainWindow
+class Widget : public QWidget
 {
     Q_OBJECT
 
