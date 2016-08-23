@@ -81,7 +81,6 @@ bool Widget::nativeEvent(const QByteArray &eventType, void *message, long *resul
         }
 
         *result = ::DefWindowProc(msg->hwnd, msg->message, msg->wParam, msg->lParam);
-        return true;
         break;
 
     case WM_NCCALCSIZE:
